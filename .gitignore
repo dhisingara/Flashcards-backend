@@ -102,7 +102,7 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 **/Properties/launchSettings.json
-
+*.pem
 *_i.c
 *_p.c
 *_i.h
