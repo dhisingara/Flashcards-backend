@@ -33,7 +33,7 @@ This will connect to AWS ec2 instance and deploy the application via a docker im
 
 ## Pending tasks
 
-Due to the time constraints we has to setup the following.
+Due to the time constraints we are yet to setup the following.
 
 - [ ] Strict Linting rules.
 - [ ] Husky for commits hooks.
