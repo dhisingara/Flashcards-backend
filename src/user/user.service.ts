@@ -14,8 +14,4 @@ export class UserService {
   async register(user: User): Promise<User> {
     return this.userModel.create(user);
   }
-
-  async findAgents(): Promise<User[]> {
-    return await this.userModel.find({ type: 'COLLECTION_AGENT' });
-  }
 }

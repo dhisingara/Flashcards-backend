@@ -23,14 +23,4 @@ export class UserController {
     user.id = uuidv4();
     return this.userService.register(user);
   }
-
-  @Get('/getUserByUsername')
-  async getUserByUsername(@Query() queryParams: any) {
-    return await this.userService.findOne(queryParams.email);
-  }
-
-  @Get('/getAgents')
-  async getAgents() {
-    return await this.userService.findAgents();
-  }
 }
