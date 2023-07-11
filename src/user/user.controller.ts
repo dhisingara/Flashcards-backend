@@ -16,6 +16,7 @@ import { v4 as uuidv4 } from 'uuid';
 export class UserController {
   constructor(private userService: UserService) {}
 
+  @Public()
   @HttpCode(HttpStatus.OK)
   @Post('register')
   async register(@Body() user: User) {
