@@ -8,13 +8,13 @@ First, run the development server:
 npm run start:dev
 ```
 
-Open [http://localhost:8080](http://localhost:8080) with your browser to see the application locally.
+You can access the apis via [http://localhost:3333/api](http://localhost:3333/api).
 
 This application is build using nestjs.
 
 ## Testing
 
-We use inbuilt testing suite provided by nestjs.
+We use inbuilt testing framework provided by nestjs.
 Test suites can be run as:
 
 ```bash
